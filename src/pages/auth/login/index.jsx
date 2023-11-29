@@ -1,55 +1,140 @@
-import * as React from "react";
+import Logo from "../../../assets/images/Logo.png";
+import LogoFacebook from "../../../assets/images/facebook-2-logo-png-transparent-1.png";
+import Line from "../../../assets/images/line-14.svg";
+import LogoGoogle from "../../../assets/images/google-g-logo-1.png";
+import { Link } from "react-router-dom";
 
-export const MyComponent = () => {
+const Login = () => {
   return (
-    <div className="bg-white flex flex-col items-center px-5">
-      <div className="border bg-neutral-100 flex w-[691px] max-w-full flex-col mt-52 mb-40 pl-20 pr-8 pt-5 pb-12 rounded-2xl border-solid border-black border-opacity-30 max-md:my-10 max-md:px-5">
-        <div className="flex w-[388px] max-w-full pr-0 justify-between gap-5 self-end">
-          <img
-            loading="lazy"
-            srcSet="..."
-            className="aspect-[1.2] object-contain object-center w-[151px] overflow-hidden shrink-0 max-w-full mt-2.5"
-          />
-          <div className="z-[1] flex grow basis-[0%] flex-col">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/805b9221-91b2-418d-b845-b1d032562698?"
-              className="aspect-square object-contain object-center w-[18px] overflow-hidden max-w-full"
-            />
-            <div className="bg-sky-600 self-stretch shrink-0 h-px" />
-          </div>
-        </div>
-        <div className="rounded border bg-neutral-100 self-center flex w-[442px] max-w-full pt-0 flex-col mt-44 pb-12 px-4 border-solid border-zinc-400 max-md:mt-10">
-          <div className="bg-neutral-100 z-[1] flex w-[118px] shrink-0 h-[7px] flex-col mb-2.5" />
-        </div>
-        <div className="rounded border bg-neutral-100 self-center flex w-[442px] max-w-full pt-0 flex-col mt-9 pb-12 px-4 border-solid border-zinc-400">
-          <div className="bg-neutral-100 z-[1] flex w-[118px] shrink-0 h-[7px] flex-col mb-2.5" />
-        </div>
-        <div className="border bg-neutral-100 flex w-4 shrink-0 h-4 flex-col ml-12 mt-5 border-solid border-zinc-400 self-start max-md:ml-2.5" />
-        <div className="bg-sky-600 self-center flex w-[434px] shrink-0 h-[46px] flex-col mt-4 rounded-[50px] max-md:max-w-full" />
-        <div className="flex items-stretch gap-4 ml-5 mt-6 pr-20 self-start max-md:max-w-full max-md:flex-wrap max-md:pr-5">
-          <div className="bg-blue-500 flex grow basis-[0%] flex-col items-stretch py-1">
-            <div className="bg-white flex flex-col items-center py-2">
-              <img
-                loading="lazy"
-                srcSet="..."
-                className="aspect-[8.85] object-contain object-center w-[230px] overflow-hidden"
-              />
+    <>
+      <div className="w-[1728] h-[1117] flex justify-center items-center">
+        <div className="w-[689px] h-[699px] max-sm:w-[298px] max-sm:h-[698px] bg-neutral-100 rounded-2xl border border-black border-opacity-25">
+          <div className="max-md:absolute absolute max-sm:ml-[200px] ml-[557px] mt-[19px] flex flex-row text-black text-base font-semibold font-COCOGOOSE">
+            <Link
+              to="/register"
+              className="max-md:absolute max-md:text-[16px] w-[52px] inline-block border-b-2 border-sky-600 text-[16px]"
+            >
+              Register
+            </Link>
+            <div className=" ml-[68px] mt-[6px] w-[18px] h-[18px] absolute">
+              <div className="w-[18px] h-[18px] mt-[3px] left-0 top-0 absolute">
+                <img src={Line} alt="Error" className="" />
+              </div>
             </div>
           </div>
-          <div className="bg-indigo-800 flex grow basis-[0%] flex-col items-stretch py-1">
-            <div className="bg-white flex flex-col px-4 py-1.5">
+
+          <div className="pt-[27px] max-md:pt-[60px]">
+            <div className="flex flex-col items-center">
               <img
-                loading="lazy"
-                srcSet="..."
-                className="aspect-[4.7] object-contain object-center w-[141px] overflow-hidden max-w-full"
+                className="w-[151px] h-[126px] max-md:w-[110px] max-md:h-[92px] max-sm:mb-[11px] mb-[29px]"
+                src={Logo}
               />
+              <div className="text-black text-4xl font-semibold font-['COCOGOOSE']">
+                bylogin
+              </div>
+
+              <div className="h-[42px] pl-[70px] pr-[69px] pt-[22px]">
+                <p className="w-[550px] max-md:w-[240px] top-0 left-0 [font-family:'Source_Sans_Pro-SemiBold',Helvetica] font-semibold text-[#707070] text-[14px] text-center leading-[15.1px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                  ac tortor volutpat, vulputate massa non, feugiat tellus. Proin
+                  ac neque et felis bibendum varius.
+                </p>
+              </div>
+              <div className="pt-[37px] pl-[117px] pr-[129px] relative max-md:relative">
+                <div className="max-sm:w-[264.57px] max-sm:h-[38.22px] max-sm:mt-[30px] max-sm:ml-5 w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative max-md:relative">
+                  <input
+                    className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4"
+                    placeholder="Username or Email..."
+                  />
+                  <div className="absolute bg-white h-[7px] left-[12%] top-[0] w-[112px] max-md:absolute"></div>
+                  <label
+                    className="max-md:absolute max-md:text-[10px] absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
+                    htmlFor="username"
+                  >
+                    Username
+                  </label>
+                </div>
+              </div>
+              <div className="pt-[37px] pl-[117px] pr-[129px] max-md:pt-[19.78px] relative max-md:relative">
+                <div className="max-sm:w-[264.57px] max-sm:h-[38.22px] max-sm:ml-5 w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative max-md:relative">
+                  <input
+                    type = "password"
+                    className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4"
+                    placeholder="**********************"
+                  />
+                  <div className="absolute bg-white h-[7px] left-[12%] top-[0] w-[112px] max-md:absolute"></div>
+                  <label
+                    className="max-md:absolute max-md:text-[10px] absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
+                    htmlFor="username"
+                  >
+                    Password
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-row max-md:pl-[30px] max:md:pt-[22px] pt-[19px] pl-[130px] w-[96%]">
+              <input
+                className=" w-[16px] h-[16px] bg-neutral-100 border border-zinc-400"
+                type="checkbox"
+              />
+              <div className="ml-[5px] [font-family:'Source_Sans_Pro-SemiBold',Helvetica] font-semibold text-black text-[14px] text-center tracking-[0] leading-[15.1px] whitespace-nowrap">
+                Remember me
+              </div>
+              <div className="w-[109px] h-[15px] pl-[180px] max-md:pl-[39px] max-md:pr-[21px] pr-[138pxs] ">
+                <div className=" [font-family:'Source_Sans_Pro-SemiBold',Helvetica] font-semibold text-black text-[14px] text-center tracking-[0] leading-[15.1px] whitespace-nowrap">
+                  Forgot&nbsp;&nbsp;Password?
+                </div>
+              </div>
+            </div>
+            <div className="pt-[17px] pr-[129px] pl-[129px] max-md:pl-[22px] max-md:pt-[20px] ">
+              <button className="w-[435px] h-[46px] max-md:h-[27px] max-md:w-[254px] top-0 left-0 bg-[#1979bb] rounded-[50px] text-white">
+                Login
+              </button>
+            </div>
+            <div className="flex flex-row max-md:flex-col">
+              <div className="pl-[100px] pt-[25px] pb-[47px] max-md:pl-[38px] max-md:pt-[28px] max-md:pr-[30px] max-md:pb-[0px] pr-4 flex">
+                <div className="w-[230px] h-[44px] top-0 left-0 bg-[#4285f4] ">
+                  <div className="absolute pt-[14px] pr-[43px] pl-[71px] font-semibold text-white text-[14px] text-center tracking-[0] leading-[15.1px] whitespace-nowrap">
+                    Sign in with Google
+                  </div>
+                  <div className="pt-[2px] pl-[2px]">
+                    <div className="w-[43px] h-[39px] bg-white flex justify-center items-center">
+                      <div className="w-[26px] h-[26px]">
+                        <img
+                          className="w-[26px] h-[26px] object-cover"
+                          alt="Google g logo"
+                          src={LogoGoogle}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className=" pt-[25px] pl-[14px] pr-[144px] max-md:pt-[17px] pb-[47px] max-md:pl-[38px] max-md:pr-[30px]">
+                <div className="w-[230px] h-[44px] top-0 left-0 bg-[#4285f4] ">
+                  <div className="absolute pt-[14px] pr-[43px] pl-[71px] font-semibold text-white text-[14px] text-center tracking-[0] leading-[15.1px] whitespace-nowrap">
+                    Sign in with Facebook
+                  </div>
+                  <div className="pt-[2px] pl-[2px]">
+                    <div className="w-[43px] h-[39px] bg-white flex justify-center items-center">
+                      <div className="w-[15px] h-[30px]">
+                        <img
+                          className="w-[15px] h-[30px] object-cover"
+                          alt="Google g logo"
+                          src={LogoFacebook}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
-}
+};
 
-
+export default Login;

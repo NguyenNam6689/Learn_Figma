@@ -1,13 +1,13 @@
-import './App.css'
-import { MyComponent } from './pages/auth/login'
-import { RegisterPage } from './pages/auth/register'
+
+import "./App.css";
+import RouterPage from "./routers";
 
 function App() {
   return (
     <>
-    <MyComponent/>
+      <RouterPage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
