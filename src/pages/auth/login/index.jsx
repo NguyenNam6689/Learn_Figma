@@ -2,13 +2,15 @@ import Logo from "../../../assets/images/Logo.png";
 import LogoFacebook from "../../../assets/images/facebook-2-logo-png-transparent-1.png";
 import Line from "../../../assets/images/line-14.svg";
 import LogoGoogle from "../../../assets/images/google-g-logo-1.png";
+import Image2 from "../../../assets/images/icon2.png";
 import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
     <>
-      <div className="w-[1728] h-[1117] flex justify-center items-center">
-        <div className="w-[689px] h-[699px] max-sm:w-[298px] max-sm:h-[698px] bg-neutral-100 rounded-2xl border border-black border-opacity-25">
+      <div className="w-[1728] h-[1117] flex justify-center items-center relative">
+      <img className="absolute w-[457px] h-[472px] top-[10px] left-[320px] object-cover -z-[1] " src={Image2} />
+        <div className="w-[689px] h-[699px] max-sm:w-[298px] max-sm:h-[698px] relative bg-neutral-100 rounded-2xl border border-black border-opacity-25">
           <div className="max-md:absolute absolute max-sm:ml-[200px] ml-[557px] mt-[19px] flex flex-row text-black text-base font-semibold font-COCOGOOSE">
             <Link
               to="/register"

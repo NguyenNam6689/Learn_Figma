@@ -2,12 +2,14 @@ import Logo from "../../../assets/images/Logo.png";
 import LogoFacebook from "../../../assets/images/facebook-2-logo-png-transparent-1.png";
 import Line from "../../../assets/images/line-14.svg";
 import LogoGoogle from "../../../assets/images/google-g-logo-1.png";
+import Image1 from "../../../assets/images/icon1.png";
 import { Link } from "react-router-dom";
 const RegisterPage = () => {
   return (
     <>
-      <div className="w-[1728] h-[1117] flex justify-center items-center">
-        <div className="w-[689px] h-[792px] max-md:w-[298px] max-md:h-[698px] bg-neutral-100 rounded-2xl border border-black border-opacity-25">
+      <div className="w-[1728] h-[1117] flex justify-center relative items-center relative">
+        <div className="w-[689px] h-[792px] max-md:w-[298px] max-md:h-[698px] bg-neutral-100 rounded-2xl border border-black border-opacity-25 relative">
+        <img className="absolute w-[457px] h-[472px]  top-[-50px] left-[520px] object-cover -z-[1] " src={Image1} />
           <div className=" ml-[10px] mt-[15px] w-[18px] h-[18px] absolute">
             <div className="w-[18px] h-[18px] mt-[3px] left-0 top-0 absolute">
               <img src={Line} alt="Error" className="rotate-180" />
@@ -33,7 +35,7 @@ const RegisterPage = () => {
               </div>
 
               <div className="h-[42px] max-md:h-[113px] max-md:mr-[26px] max-md:ml-[32px] max-md:pt-[5px] pl-[70px] pr-[69px] pt-[22px]">
-                <p className="w-[550px] max-md:w-[240px] top-0 left-0 [font-family:'Source_Sans_Pro-SemiBold',Helvetica] font-semibold text-[#707070] max-sm:text-[#717171] text-[14px] text-center leading-[15.1px]">
+                <p className="w-[550px] h-[42px] origin-top-left text-center text-neutral-500 text-sm font-semibold font-['Source Sans Pro'] leading-[15.13px]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                   ac tortor volutpat, vulputate massa non, feugiat tellus. Proin
                   ac neque et felis bibendum varius.
@@ -145,6 +147,7 @@ const RegisterPage = () => {
             </div>
           </div>
         </div>
+      
       </div>
     </>
   );
