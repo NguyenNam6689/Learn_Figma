@@ -1,0 +1,352 @@
+.box {
+    height: 668px;
+    position: relative;
+    width: 619px;
+  }
+  
+  .box .group {
+    height: 668px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 633px;
+  }
+  
+  .box .overlap {
+    height: 137px;
+    left: 8px;
+    position: absolute;
+    top: 186px;
+    width: 269px;
+  }
+  
+  .box .overlap-group-wrapper {
+    height: 43px;
+    left: 0;
+    position: absolute;
+    top: 94px;
+    width: 269px;
+  }
+  
+  .box .overlap-group {
+    height: 43px;
+    position: relative;
+    width: 265px;
+  }
+  
+  .box .rectangle {
+    background-color: #f5f5f5;
+    border: 1px solid;
+    border-color: #b6b6b6;
+    border-radius: 4px;
+    height: 38px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 265px;
+  }
+  
+  .box .div {
+    background-color: #f5f5f5;
+    height: 4px;
+    left: 10px;
+    position: absolute;
+    top: 4px;
+    width: 73px;
+  }
+  
+  .box .text-wrapper {
+    color: #000000;
+    font-family: "Source Sans Pro-SemiBold", Helvetica;
+    font-size: 10px;
+    font-weight: 600;
+    left: 21px;
+    letter-spacing: 0;
+    line-height: 10.8px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 53px;
+  }
+  
+  .box .text-wrapper-2 {
+    color: #9b9b9b;
+    font-family: "Source Sans Pro-SemiBold", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    left: 11px;
+    letter-spacing: 0;
+    line-height: 13px;
+    position: absolute;
+    text-align: center;
+    top: 19px;
+    white-space: nowrap;
+    width: 132px;
+  }
+  
+  .box .p {
+    color: #707070;
+    font-family: "Source Sans Pro-SemiBold", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: 15.1px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 240px;
+  }
+  
+  .box .overlap-wrapper {
+    height: 43px;
+    left: 0;
+    position: absolute;
+    top: 338px;
+    width: 277px;
+  }
+  
+  .box .overlap-2 {
+    height: 43px;
+    position: relative;
+    width: 273px;
+  }
+  
+  .box .rectangle-2 {
+    background-color: #f5f5f5;
+    border: 1px solid;
+    border-color: #b6b6b6;
+    border-radius: 4px;
+    height: 38px;
+    left: 8px;
+    position: absolute;
+    top: 5px;
+    width: 265px;
+  }
+  
+  .box .rectangle-3 {
+    background-color: #f5f5f5;
+    height: 4px;
+    left: 18px;
+    position: absolute;
+    top: 4px;
+    width: 73px;
+  }
+  
+  .box .text-wrapper-3 {
+    color: #000000;
+    font-family: "Source Sans Pro-SemiBold", Helvetica;
+    font-size: 10px;
+    font-weight: 600;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: 10.8px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 53px;
+  }
+  
+  .box .text-wrapper-4 {
+    color: #9b9b9b;
+    font-family: "Source Sans Pro-SemiBold", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 13px;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    white-space: nowrap;
+    width: 132px;
+  }
+  
+  .box .div-wrapper {
+    height: 43px;
+    left: 0;
+    position: absolute;
+    top: 396px;
+    width: 277px;
+  }
+  
+  .box .text-wrapper-5 {
+    color: #000000;
+    font-family: "Source Sans Pro-SemiBold", Helvetica;
+    font-size: 10px;
+    font-weight: 600;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: 10.8px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 58px;
+  }
+  
+  .box .text-wrapper-6 {
+    color: #000000;
+    font-family: "COCOGOOSE-DemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1px;
+    white-space: nowrap;
+  }
+  
+  .box .arrow-right {
+    height: 20px;
+    left: 3px;
+    position: absolute;
+    top: -1px;
+    transform: rotate(180deg);
+    width: 20px;
+  }
+  
+  .box .line {
+    height: 9px;
+    left: 2px;
+    position: absolute;
+    top: 4px;
+    transform: rotate(-180deg);
+    width: 13px;
+  }
+  
+  .box .img {
+    height: 1px;
+    left: 27px;
+    object-fit: cover;
+    position: absolute;
+    top: 18px;
+    width: 36px;
+  }
+  
+  .box .text-wrapper-7 {
+    color: #000000;
+    font-family: "COCOGOOSE-DemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    left: 467px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 141px;
+    white-space: nowrap;
+  }
+  
+  .box .overlap-3 {
+    background-image: url(./rectangle-8.svg);
+    background-size: 100% 100%;
+    height: 44px;
+    left: 24px;
+    position: absolute;
+    top: 563px;
+    width: 230px;
+  }
+  
+  .box .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Source Sans Pro-SemiBold", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    left: 71px;
+    letter-spacing: 0;
+    line-height: 15.1px;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    white-space: nowrap;
+  }
+  
+  .box .img-wrapper {
+    background-color: #ffffff;
+    height: 39px;
+    left: 3px;
+    position: absolute;
+    top: 2px;
+    width: 43px;
+  }
+  
+  .box .google-g-logo {
+    height: 26px;
+    left: 7px;
+    object-fit: cover;
+    position: absolute;
+    top: 7px;
+    width: 26px;
+  }
+  
+  .box .overlap-4 {
+    background-color: #3c5a9a;
+    height: 44px;
+    left: 25px;
+    position: absolute;
+    top: 624px;
+    width: 230px;
+  }
+  
+  .box .facebook-logo-png {
+    height: 30px;
+    left: 14px;
+    object-fit: cover;
+    position: absolute;
+    top: 5px;
+    width: 15px;
+  }
+  
+  .box .rectangle-4 {
+    background-color: #f5f5f5;
+    border: 1px solid;
+    border-color: #b6b6b6;
+    height: 16px;
+    left: 16px;
+    position: absolute;
+    top: 473px;
+    width: 16px;
+  }
+  
+  .box .text-wrapper-9 {
+    color: #000000;
+    font-family: "Source Sans Pro-SemiBold", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    left: 46px;
+    letter-spacing: 0;
+    line-height: 15.1px;
+    position: absolute;
+    text-align: center;
+    top: 473px;
+    white-space: nowrap;
+  }
+  
+  .box .overlap-5 {
+    background-color: #1979bb;
+    border-radius: 50px;
+    height: 27px;
+    left: 8px;
+    position: absolute;
+    top: 508px;
+    width: 254px;
+  }
+  
+  .box .text-wrapper-10 {
+    color: #ffffff;
+    font-family: "Source Sans Pro-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    left: 101px;
+    letter-spacing: 0;
+    line-height: 17.3px;
+    position: absolute;
+    text-align: center;
+    top: 4px;
+    white-space: nowrap;
+    width: 66px;
+  }
+  
